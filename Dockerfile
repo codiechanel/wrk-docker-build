@@ -7,3 +7,4 @@ RUN git clone https://github.com/wg/wrk.git
 WORKDIR /opt/wrk
 RUN make
 RUN cp wrk /usr/local/bin
+ENTRYPOINT ["wrk"]
